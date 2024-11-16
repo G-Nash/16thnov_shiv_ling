@@ -1,0 +1,137 @@
+body{
+    background-color: black;
+    color: white;
+    /* background-image: url("background.jpg"); */
+    background-position: center;
+    background-size: cover;
+}
+
+#heading{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    border: solid red;
+    margin-bottom: 75px;
+    background-color: red;
+}
+
+/* #whole{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+} */
+
+#top_thingy{
+    border: solid grey;
+    height: 200px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+#base{
+    border: solid grey;
+    height: 50px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2px;
+    border-radius: 10px;
+}
+
+#subbase{
+    border: solid grey;
+    height: 40px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    border-radius: 10px;
+}
+
+#downarch{
+    border: grey solid;
+    height: 75px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2px;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+}
+
+#toparch{
+    border: grey solid;
+    height: 75px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    margin-top: -35px;
+}
+
+#side_thingy{
+    border: solid grey;
+    height: 100px;
+    width: 50px;
+    /* margin-right: auto; */
+    margin-left: 275px;
+    margin-top: -2.5px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 100px;
+}
+
+#dash1{
+    border: solid 1px white;
+    height: 5px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    /* margin-bottom: 10px; */
+    background-color: white;
+    border-radius: 5px;
+}
+
+#dash2{
+    border: solid 1px white;
+    height: 5px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    background-color: white;
+    border-radius: 5px;
+}
+
+#dash3{
+    border: solid 1px white;
+    height: 5px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    /* margin-bottom: 20px; */
+    background-color: white;
+    border-radius: 5px;
+}
+
+#red_circle{
+    border: solid red;
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    border-radius: 500px;
+}
+
+#top_thingy, #base, #subbase, #downarch, #toparch, #side_thingy{
+    background-color: gray;
+    /* box-shadow: 0 0 50px black; */
+}
